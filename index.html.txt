@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahfuz Islam Info</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Basic Blogspot-like CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            display: flex;
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+        main {
+            flex: 3;
+            padding: 20px;
+            background-color: white;
+            margin-right: 20px;
+        }
+        aside {
+            flex: 1;
+            padding: 20px;
+            background-color: white;
+        }
+        article {
+            margin-bottom: 30px;
+        }
+        article h2 {
+            color: #4CAF50;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        a {
+            color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Mahfuz Islam Info</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<div class="container">
+    <!-- Main Blog Posts -->
+    <main>
+        <article>
+            <h2>Blog Post Title 1</h2>
+            <p><em>February 15, 2026</em></p>
+            <p>This is a sample blog post content. Replace this with your own text. You can add images, links, or other content just like Blogger.</p>
+        </article>
+
+        <article>
+            <h2>Blog Post Title 2</h2>
+            <p><em>February 14, 2026</em></p>
+            <p>This is another sample post. You can copy/paste this structure to add more posts.</p>
+        </article>
+    </main>
+
+    <!-- Sidebar -->
+    <aside>
+        <h3>Popular Posts</h3>
+        <ul>
+            <li><a href="#">Post 1</a></li>
+            <li><a href="#">Post 2</a></li>
+            <li><a href="#">Post 3</a></li>
+        </ul>
+
+        <h3>Categories</h3>
+        <ul>
+            <li><a href="#">Category 1</a></li>
+            <li><a href="#">Category 2</a></li>
+            <li><a href="#">Category 3</a></li>
+        </ul>
+    </aside>
+</div>
+
+<footer>
+    &copy; 2026 Mahfuz Islam. All rights reserved.
+</footer>
+
+</body>
+</html>
